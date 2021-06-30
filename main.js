@@ -1,4 +1,7 @@
 import './style.css'
+import MyWorker from './worker?worker'
+
+const worker = new MyWorker()
 
 document.querySelector('#app').innerHTML = `
   <h1>Hello Vite!</h1>
